@@ -1,4 +1,11 @@
 data/*
 env_tf/*
+build/*
+causal-conv1d
+causal-conv1d/*
+mamba
+mamba/*
+mamba_ssm.egg-info
+mamba_ssm.egg-info/*
 
 SPEAKERS.csv
