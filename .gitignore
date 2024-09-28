@@ -7,5 +7,9 @@ mamba
 mamba/*
 mamba_ssm.egg-info
 mamba_ssm.egg-info/*
+text/*
+
+*/node_modules
+*/dist
 
 SPEAKERS.csv

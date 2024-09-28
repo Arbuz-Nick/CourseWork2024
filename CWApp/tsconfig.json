@@ -1,0 +1,11 @@
+{
+  "extends": "@quasar/app-vite/tsconfig-preset",
+  "compilerOptions": {
+    "baseUrl": "."
+  },
+  "include": [
+    "./src-python",
+    "./src-electron",
+    "./src"
+  ]
+}

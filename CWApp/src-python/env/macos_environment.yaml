@@ -1,0 +1,14 @@
+name: SEMamba
+channels:
+  - conda-forge
+  - pytorch
+dependencies:
+  - python=3.12
+  - pytorch=2.2
+  - torchvision
+  - torchaudio
+  - pip
+  - pip:
+    - causal-conv1d>=1.2.0
+    - mamba_ssm
+    - einops
