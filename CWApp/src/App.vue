@@ -19,6 +19,8 @@
     tag="a"
     target="_blank"
     @click="denoiseFile"
+    v-if="noisedBasename !== undefined"
+
   >
     <q-item-section>
       <q-item-label :class="$style.itemLabel">Run</q-item-label>
@@ -32,7 +34,7 @@
     tag="a"
     target="_blank"
     :href="denoisedItem?.path"
-    :v-if="denoisedItem !== undefined"
+    v-if="denoisedItem !== undefined"
   >
     <q-item-section>
       <q-item-label :class="$style.itemLabel"
